@@ -1,0 +1,23 @@
+{
+    "name": "rito007/bagisto-lang-pt-pt",
+    "description": "European Portuguese (pt_PT) translations for Bagisto - lang/vendor overrides",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.3 <8.5",
+        "bagisto/bagisto": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rito007\\LangPtPt\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rito007\\LangPtPt\\Providers\\LangPtPtServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
