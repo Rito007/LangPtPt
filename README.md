@@ -27,12 +27,18 @@ php artisan vendor:publish --tag=bagisto-lang-pt-pt
 ```
 
 ## Configurar a localidade
+Em `.env`
 
-Em `config/app.php`:
+```
+APP_LOCALE=pt_PT
+```
+
+Ou em `config/app.php`:
 
 ```php
 'locale' => 'pt_PT',
 ```
+
 
 ## Atualizar
 
