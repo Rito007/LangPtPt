@@ -4109,7 +4109,7 @@ return [
             'no-result-found' => 'Nenhum resultado encontrado',
             'save-btn' => 'Salvar Configuração',
             'save-message' => 'Configuração salva com sucesso',
-            'search' => 'Buscar',
+            'search' => 'Pesquisar',
             'select-country' => 'Selecionar País',
             'select-state' => 'Selecionar Estado',
             'title' => 'Configuração',
@@ -4301,7 +4301,7 @@ return [
 
                     'settings' => [
                         'enabled' => 'Ativado',
-                        'info' => 'Ative ou desative o sitemap para o seu site para melhorar a otimização do mecanismo de busca e melhorar a experiência do usuário.',
+                        'info' => 'Ative ou desative o sitemap para o seu site para melhorar a otimização do mecanismo de pesquisa e melhorar a experiência do usuário.',
                         'title' => 'Configurações',
                     ],
 
@@ -4432,26 +4432,26 @@ return [
 
                     'settings' => [
                         'compare-options' => 'Opções de Comparação',
-                        'image-search-option' => 'Opção de Busca por Imagem',
+                        'image-search-option' => 'Opção de Pesquisa por Imagem',
                         'title' => 'Configurações',
                         'title-info' => 'As configurações se referem a escolhas configuráveis que controlam o comportamento de um sistema, aplicativo ou dispositivo, adaptadas às preferências e requisitos do usuário.',
                         'wishlist-options' => 'Opções de Lista de Desejos',
                     ],
 
                     'search' => [
-                        'admin-mode' => 'Modo de Busca do Admin',
-                        'admin-mode-info' => 'A Mega Busca, Datagrid e outras funcionalidades de busca no painel de administração serão baseadas no mecanismo de busca selecionado.',
+                        'admin-mode' => 'Modo de Pesquisa do Admin',
+                        'admin-mode-info' => 'A Mega Pesquisa, Datagrid e outras funcionalidades de pesquisa no painel de administração serão baseadas no mecanismo de pesquisa selecionado.',
                         'database' => 'Banco de Dados',
                         'elastic' => 'Elastic Search',
                         'max-query-length' => 'Comprimento Máximo da Consulta',
                         'max-query-length-info' => 'Defina o comprimento máximo da consulta para consultas de pesquisa.',
                         'min-query-length' => 'Comprimento Mínimo da Consulta',
                         'min-query-length-info' => 'Defina o comprimento mínimo da consulta para consultas de pesquisa.',
-                        'search-engine' => 'Mecanismo de Busca',
-                        'storefront-mode' => 'Modo de Busca da Frente da Loja',
-                        'storefront-mode-info' => 'A funcionalidade de busca na frente da loja será baseada no mecanismo de busca selecionado, incluindo a página de categoria, página de pesquisa e outras funcionalidades de busca.',
-                        'title' => 'Busca',
-                        'title-info' => 'Para configurar o mecanismo de busca para pesquisas de produtos, você pode escolher entre um banco de dados e o Elasticsearch com base em seus requisitos. Se você tiver um grande número de produtos, o Elasticsearch é recomendado.',
+                        'search-engine' => 'Mecanismo de Pesquisa',
+                        'storefront-mode' => 'Modo de Pesquisa da Frente da Loja',
+                        'storefront-mode-info' => 'A funcionalidade de pesquisa na frente da loja será baseada no mecanismo de pesquisa selecionado, incluindo a página de categoria, página de pesquisa e outras funcionalidades de pesquisa.',
+                        'title' => 'Pesquisa',
+                        'title-info' => 'Para configurar o mecanismo de pesquisa para pesquisas de produtos, você pode escolher entre um banco de dados e o Elasticsearch com base em seus requisitos. Se você tiver um grande número de produtos, o Elasticsearch é recomendado.',
                     ],
 
                     'guest-checkout' => [
@@ -5275,7 +5275,7 @@ return [
                     'orders' => 'Pedidos',
                     'products' => 'Produtos',
                     'sku' => 'SKU: :sku',
-                    'title' => 'Busca avançada',
+                    'title' => 'Pesquisa avançada',
                 ],
             ],
 
@@ -5322,7 +5322,7 @@ return [
                 'roles' => 'Funções',
                 'rules' => 'Regras',
                 'sales' => 'Vendas',
-                'search-seo' => 'Busca & SEO',
+                'search-seo' => 'Pesquisa & SEO',
                 'search-synonyms' => 'Sinônimos de Pesquisa',
                 'search-terms' => 'Termos de Pesquisa',
                 'settings' => 'Configurações',
@@ -5565,7 +5565,7 @@ return [
         'reviews' => 'Avaliações',
         'roles' => 'Funções',
         'sales' => 'Vendas',
-        'search-seo' => 'Busca & SEO',
+        'search-seo' => 'Pesquisa & SEO',
         'search-synonyms' => 'Sinônimos de Pesquisa',
         'search-terms' => 'Termos de Pesquisa',
         'settings' => 'Configurações',
