@@ -4577,7 +4577,7 @@ return [
 
                 'inventory' => [
                     'title' => 'Inventário',
-                    'title-info' => 'Configure as configurações de inventário para permitir pedidos em atraso e definir o limite de estoque esgotado.',
+                    'title-info' => 'Configure as configurações de inventário para permitir pedidos em atraso e definir o limite de stock esgotado.',
 
                     'product-stock-options' => [
                         'allow-back-orders' => 'Permitir Pedidos Pendentes',
@@ -4585,7 +4585,7 @@ return [
                         'min-qty-allowed-in-cart' => 'Quantidade Mínima Permitida no Carrinho de Compras',
                         'out-of-stock-threshold' => 'Limite de Stock Esgotado',
                         'title' => 'Opção de Stock do Produto',
-                        'info' => 'Configure opções de estoque do produto para permitir pedidos pendentes, definir quantidades mínimas e máximas no carrinho e definir limites de falta de estoque.',
+                        'info' => 'Configure opções de stock do produto para permitir pedidos pendentes, definir quantidades mínimas e máximas no carrinho e definir limites de falta de stock.',
                     ],
                 ],
             ],
@@ -5006,7 +5006,7 @@ return [
 
                     'stock-options' => [
                         'allow-back-orders' => 'Permitir Pedidos em Atraso',
-                        'info' => 'Opções de estoque são contratos de investimento que concedem o direito de comprar ou vender ações de uma empresa a um preço predeterminado, influenciando os lucros potenciais.',
+                        'info' => 'Opções de stock são contratos de investimento que concedem o direito de comprar ou vender ações de uma empresa a um preço predeterminado, influenciando os lucros potenciais.',
                         'title' => 'Opções de Stock',
                     ],
                 ],

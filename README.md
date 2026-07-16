@@ -27,18 +27,12 @@ php artisan vendor:publish --tag=bagisto-lang-pt-pt
 ```
 
 ## Configurar a localidade
-Em `.env`
 
-```
-APP_LOCALE=pt_PT
-```
-
-Ou em `config/app.php`:
+Em `config/app.php`:
 
 ```php
 'locale' => 'pt_PT',
 ```
-
 
 ## Atualizar
 
@@ -47,6 +41,16 @@ cd packages/Rito007/LangPtPt
 git pull
 php artisan vendor:publish --tag=bagisto-lang-pt-pt --force
 ```
+
+## Demo Products (pt_PT)
+
+Se instalaste o Bagisto com `php artisan bagisto:install --demo-samples`, podes adicionar as traduções pt_PT dos produtos demo:
+
+```bash
+php artisan bagisto:seed-demo-ptpt
+```
+
+Isto insere traduções pt_PT para nomes, descrições, meta dados, atributos e opções de atributos nos produtos demo. Após correr o comando, certifica-te que o locale do admin user está definido para `pt_PT` em **Admin > Settings > Users** para veres os nomes na listagem de produtos.
 
 ## Licença
 
